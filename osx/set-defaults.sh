@@ -68,3 +68,6 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Trackpad: enable app exposé swipe down
+defaults write com.apple.dock showAppExposeGestureEnabled -bool true
